@@ -1,30 +1,22 @@
 import Link from "next/link";
-import { Globe, MessageCircleMore, Send, Sparkles } from "lucide-react";
 
 const footerSections = [
   {
-    title: "Produtos",
+    title: "Serviços",
     links: [
-      { label: "Mercado Livre", href: "https://www.mercadolivre.com.br/pagina/vanzashop" },
-      { label: "Shopee", href: "https://shopee.com.br/vanzashop?categoryId=100636&entryPoint=ShopByPDP&itemId=58251526226" },
-      { label: "Categorias", href: "#marketplaces" },
-    ],
-  },
-  {
-    title: "Consultoria",
-    links: [
-      { label: "Sobre", href: "#about" },
       { label: "Consultoria", href: "#consultoria" },
+      { label: "Sobre", href: "#about" },
       { label: "Contato", href: "#contact" },
     ],
   },
-];
-
-const socialLinks = [
-  { label: "LinkedIn", href: "https://www.linkedin.com", icon: Globe },
-  { label: "Instagram", href: "https://www.instagram.com", icon: Sparkles },
-  { label: "X", href: "https://x.com", icon: Send },
-  { label: "WhatsApp", href: "https://wa.me/5554999981574", icon: MessageCircleMore },
+  {
+    title: "Empresa",
+    links: [
+      { label: "WhatsApp", href: "https://wa.me/5554999981574" },
+      { label: "E-mail", href: "mailto:vanzashop@vanzashop.com.br" },
+      { label: "Localização", href: "#contact" },
+    ],
+  },
 ];
 
 export default function Footer() {
@@ -34,7 +26,7 @@ export default function Footer() {
         <div>
           <p className="text-2xl font-semibold tracking-tight text-white">VANZASHOP</p>
           <p className="mt-4 max-w-md text-sm leading-7 text-slate-400">
-            Venda de produtos e consultoria especializada para empresas que desejam crescer em marketplaces com mais eficiência.
+            Consultoria especializada para empresas que querem vender melhor em marketplaces com mais estratégia e operação.
           </p>
         </div>
 

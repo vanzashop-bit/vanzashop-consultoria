@@ -1,20 +1,20 @@
-import { ArrowRight, Boxes, Sparkles, Workflow } from "lucide-react";
+import { ArrowRight, BarChart3, Sparkles, Workflow } from "lucide-react";
 import SectionTitle from "./SectionTitle";
 
 const pillars = [
   {
-    title: "Venda de produtos",
-    description: "Uma operação pensada para quem busca encontrar produtos de forma simples, segura e prática.",
-    icon: Boxes,
-  },
-  {
-    title: "Consultoria para empresas",
-    description: "Apoio especializado para marcas e sellers que querem crescer com estratégia e performance.",
+    title: "Consultoria estratégica",
+    description: "Apoio especializado para marcas e sellers que querem crescer com mais performance e clareza.",
     icon: Workflow,
   },
   {
+    title: "Gestão comercial",
+    description: "Organização, operação e posicionamento para gerar mais eficiência e resultado.",
+    icon: BarChart3,
+  },
+  {
     title: "Experiência premium",
-    description: "Uma jornada com mais clareza, mais confiança e mais valor para o visitante.",
+    description: "Uma abordagem mais profissional, objetiva e pensada para quem quer vender melhor.",
     icon: Sparkles,
   },
 ];
@@ -26,15 +26,15 @@ export default function About() {
         <div>
           <SectionTitle
             eyebrow="Sobre a VANZASHOP"
-            title="Duas áreas de atuação, uma visão de crescimento"
-            description="A VANZASHOP organiza a experiência para dois públicos diferentes: quem quer comprar e quem quer expandir seus negócios em marketplaces."
+            title="Consultoria focada em crescimento e venda"
+            description="A VANZASHOP atua para empresas que desejam estruturar melhor seus processos e ampliar sua presença em marketplaces com mais estratégia."
           />
           <div className="mt-8 space-y-4 rounded-[2rem] border border-slate-200 bg-slate-50 p-8 shadow-sm">
             <p className="text-lg leading-8 text-slate-600">
-              A proposta é simples: priorizar a compra de produtos e, ao mesmo tempo, oferecer uma segunda linha de negócio forte para empresas que buscam consultoria especializada.
+              O foco é ajudar o cliente a vender melhor, com mais organização, mais clareza operacional e uma estratégia mais alinhada ao mercado.
             </p>
             <div className="flex items-center gap-2 text-sm font-semibold text-blue-700">
-              Descubra como a VANZASHOP conecta produtos, operação e crescimento
+              Descubra como a VANZASHOP pode apoiar seu negócio
               <ArrowRight className="h-4 w-4" />
             </div>
           </div>

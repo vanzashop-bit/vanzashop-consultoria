@@ -26,17 +26,17 @@ export default function Contact() {
         <div>
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-blue-200">Contato</p>
           <h2 className="mt-4 text-3xl font-semibold tracking-tight sm:text-4xl">
-            Quer comprar produtos ou contratar consultoria?
+            Pronto para vender melhor com consultoria?
           </h2>
           <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-300">
-            Separamos a comunicação para que cada visitante encontre o caminho certo: comprar online ou conversar com a equipe especializada.
+            Se a sua empresa quer crescer em marketplaces com mais estratégia, operação e resultado, vamos conversar.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
-            <Button href="https://www.mercadolivre.com.br/pagina/vanzashop" className="bg-white text-slate-950 hover:bg-slate-100">
-              Quero comprar
+            <Button href="https://wa.me/5554999981574" className="bg-white text-slate-950 hover:bg-slate-100">
+              Solicitar consultoria
             </Button>
-            <Button href="https://wa.me/5554999981574" variant="secondary" className="border-white/20 bg-white/10 text-white hover:bg-white/20">
-              Quero contratar consultoria
+            <Button href="mailto:vanzashop@vanzashop.com.br" variant="secondary" className="border-white/20 bg-white/10 text-white hover:bg-white/20">
+              Enviar e-mail
             </Button>
           </div>
         </div>
