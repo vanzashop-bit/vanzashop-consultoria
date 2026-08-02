@@ -35,12 +35,6 @@ export default function Hero() {
             >
               Solicitar consultoria
             </a>
-            <a
-              href="#consultoria"
-              className="rounded-full border border-slate-300 bg-white px-7 py-3.5 font-semibold text-slate-700 transition hover:bg-slate-100"
-            >
-              Ver soluções
-            </a>
           </div>
 
           <div className="mt-8 flex flex-wrap gap-3">
@@ -70,7 +64,7 @@ export default function Hero() {
               { name: "Gestão de marketplace", status: "Consultoria estratégica" },
               { name: "Automação e operação", status: "Mais eficiência" },
               { name: "Posicionamento comercial", status: "Mais conversão" },
-              { name: "ERP Tiny e integração", status: "Mais controle" },
+              { name: "Expertise em HUBs e ERPs", status: "Integração e controle" },
             ].map((item) => (
               <div key={item.name} className="flex items-center justify-between rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4">
                 <span className="font-medium text-slate-900">{item.name}</span>

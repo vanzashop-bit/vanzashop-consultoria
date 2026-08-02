@@ -1,13 +1,13 @@
-import { ArrowRight, BarChart3, Building2, Compass, Cpu, PackageCheck, ShoppingCart } from "lucide-react";
+import { ArrowRight, BrainCircuit, Building2, Compass, Cpu, DatabaseZap, ShoppingCart } from "lucide-react";
 import SectionTitle from "./SectionTitle";
 
 const consultoriaItems = [
   { title: "Consultoria", description: "Estratégias de crescimento e posicionamento para marketplaces.", icon: Compass },
   { title: "Gestão", description: "Organização comercial, operação e performance de canal.", icon: Building2 },
   { title: "Automação", description: "Fluxos mais rápidos e menos erros operacionais.", icon: Cpu },
-  { title: "ERP Tiny", description: "Integrações para gestão e controle dos processos.", icon: PackageCheck },
-  { title: "Mercado Livre", description: "Estrutura comercial e operacional para cada categoria.", icon: ShoppingCart },
-  { title: "Shopee", description: "Expansão com foco em performance e crescimento.", icon: BarChart3 },
+  { title: "HUBs", description: "Integração e orquestração entre plataformas e processos.", icon: BrainCircuit },
+  { title: "ERPs", description: "Estruturação e alinhamento de sistemas para controle operacional.", icon: DatabaseZap },
+  { title: "Expansão", description: "Crescimento com foco em performance, operação e escalabilidade.", icon: ShoppingCart },
 ];
 
 export default function Consultoria() {
@@ -22,7 +22,7 @@ export default function Consultoria() {
             Sua empresa vende em marketplaces?
           </h2>
           <p className="mt-5 text-lg leading-8 text-slate-300">
-            Também ajudamos empresas a crescerem com consultoria especializada, automação, integração com ERP, gestão de marketplaces e estratégias de vendas.
+            Também ajudamos empresas a crescerem com consultoria especializada em automação, integração entre HUBs e ERPs, gestão de marketplaces e estratégias de vendas.
           </p>
         </div>
 
